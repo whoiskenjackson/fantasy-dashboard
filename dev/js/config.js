@@ -13,5 +13,8 @@ config = {
       title: "Rotoworld",
       url: "http://www.rotoworld.com/rss/feed.aspx?sport=nfl&ftype=news&count=12&format=rss"
     }
-  ]
+  ],
+  templates: {
+    main: Handlebars.templates["main"]
+  }
 };
