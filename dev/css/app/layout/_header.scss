@@ -1,0 +1,65 @@
+%header {
+
+	@extend %clear-fix;
+
+	width: 100%;
+	position: relative;
+	background: $black-02;
+	padding: 20px 0;
+
+	> a {
+
+		@extend %inline-block;
+
+		position: relative;
+		font-size: 25px;
+		color: $white-01;
+
+		&:hover {
+
+			color: $green-01;
+
+		}
+
+		&[data-menu="main"] {
+
+			float: left;
+			left: 20px;
+
+		}
+
+		&[data-view="grid"],
+		&[data-view="list"] {
+
+			float: right;
+			margin-right: 20px;
+
+		}
+
+	}
+
+	[data-icon="menu"] {
+
+		@extend %icon-menu;
+
+	}
+
+	[data-icon="grid"] {
+
+		@extend %icon-th-large;
+
+	}
+
+	[data-icon="list"] {
+
+		@extend %icon-th-list;
+
+	}
+
+	nav {
+
+		display: none;
+
+	}
+
+}
