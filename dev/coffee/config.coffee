@@ -1,4 +1,5 @@
 config =
+	scope: $("article")
 	feeds: [
 		item = 
 			title: "CBS"
@@ -12,3 +13,4 @@ config =
 	]
 	templates:
 		main: Handlebars.templates["main"]
+		feed: Handlebars.templates["feed"]
