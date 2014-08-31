@@ -33,6 +33,14 @@ a {
   cursor: pointer;
 }
 
+/* line 3, app/base/_transitions.scss */
+header > a, .feed li {
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+
 /* line 3, app/base/gouda/_helpers.scss */
 i {
   vertical-align: top;
@@ -50,13 +58,18 @@ i {
 }
 
 /* line 20, app/base/gouda/_helpers.scss */
-header [data-icon="menu"]:before {
+header [data-icon="cog"]:before, header [data-icon="menu"]:before {
   font-family: "Genericons";
 }
 
 /* line 26, app/base/gouda/_helpers.scss */
-header [data-icon="grid"]:before, header [data-icon="list"]:before {
+header [data-icon="grid"]:before, header [data-icon="list"]:before, header [data-icon="cog"]:before {
   font-family: "Glyphicons Halflings";
+}
+
+/* line 71, app/base/gouda/_icons.scss */
+header [data-icon="cog"]:before {
+  content: "\f445";
 }
 
 /* line 368, app/base/gouda/_icons.scss */
@@ -72,6 +85,11 @@ header [data-icon="grid"]:before {
 /* line 962, app/base/gouda/_icons.scss */
 header [data-icon="list"]:before {
   content: "\e012";
+}
+
+/* line 1039, app/base/gouda/_icons.scss */
+header [data-icon="cog"]:before {
+  content: "\e019";
 }
 
 @font-face {
@@ -128,21 +146,21 @@ header > a {
   font-size: 25px;
   color: white;
 }
-/* line 18, app/layout/_header.scss */
+/* line 19, app/layout/_header.scss */
 header > a:hover {
   color: #00e8b7;
 }
-/* line 24, app/layout/_header.scss */
+/* line 25, app/layout/_header.scss */
 header > a[data-menu="main"] {
   float: left;
   left: 20px;
 }
-/* line 32, app/layout/_header.scss */
-header > a[data-view="grid"], header > a[data-view="list"] {
+/* line 34, app/layout/_header.scss */
+header > a[data-view="grid"], header > a[data-view="list"], header > a[data-menu="settings"] {
   float: right;
   margin-right: 20px;
 }
-/* line 59, app/layout/_header.scss */
+/* line 67, app/layout/_header.scss */
 header nav {
   display: none;
 }
@@ -212,16 +230,12 @@ h3 {
   margin: 0 0 5px;
   color: #333333;
   background: white;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
   -webkit-transform-origin: 8px 8px;
   -moz-transform-origin: 8px 8px;
   -o-transform-origin: 8px 8px;
   transform-origin: 8px 8px;
 }
-/* line 24, app/layout/_feed.scss */
+/* line 25, app/layout/_feed.scss */
 .feed li:hover {
   color: #00e8b7;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.22);
@@ -230,13 +244,13 @@ h3 {
   -o-transform: rotateX(10deg);
   transform: rotateX(10deg);
 }
-/* line 48, app/layout/_feed.scss */
+/* line 44, app/layout/_feed.scss */
 [data-view="grid"].feed li {
   width: 32%;
   height: 200px;
   margin: .5%;
 }
-/* line 58, app/layout/_feed.scss */
+/* line 54, app/layout/_feed.scss */
 .feed h3 {
   display: block;
   padding: 20px;

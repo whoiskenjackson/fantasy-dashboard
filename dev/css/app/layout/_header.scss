@@ -9,6 +9,7 @@
 
 	> a {
 
+		@extend %transition-all;
 		@extend %inline-block;
 
 		position: relative;
@@ -29,7 +30,8 @@
 		}
 
 		&[data-view="grid"],
-		&[data-view="list"] {
+		&[data-view="list"],
+		&[data-menu="settings"] {
 
 			float: right;
 			margin-right: 20px;
@@ -53,6 +55,12 @@
 	[data-icon="list"] {
 
 		@extend %icon-th-list;
+
+	}
+
+	[data-icon="cog"] {
+
+		@extend %icon-cog;
 
 	}
 
