@@ -1,7 +1,9 @@
 <ul>
 {{#each feeds}}
-	<li>
-		<h1>{{title}}</h1>
+	<li data-index="{{@index}}" data-parent="{{parent}}">
+		<div>
+			<h1>{{title}}</h1>
+		</div>
 	</li>
 {{/each}}
 </ul>
