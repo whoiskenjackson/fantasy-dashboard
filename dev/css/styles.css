@@ -95,7 +95,7 @@ header [data-icon="list"]:before {
 }
 }
 /* line 3, app/widgets/_inline-block.scss */
-header > a {
+header > a, [data-view="grid"].feed li {
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
@@ -120,7 +120,7 @@ header {
   width: 100%;
   position: relative;
   background: #222222;
-  padding: 20px 0;
+  padding: 20px 0 10px;
 }
 /* line 10, app/layout/_header.scss */
 header > a {
@@ -154,22 +154,22 @@ footer {
 
 /* line 9, app/layout/_wrapper.scss */
 body {
+  font-family: "Oswald", sans-serif;
   background: white;
 }
 
-/* line 21, app/layout/_wrapper.scss */
+/* line 22, app/layout/_wrapper.scss */
 a {
   text-decoration: none;
 }
 
-/* line 27, app/layout/_wrapper.scss */
+/* line 28, app/layout/_wrapper.scss */
 section {
   width: 100%;
 }
 
-/* line 33, app/layout/_wrapper.scss */
+/* line 34, app/layout/_wrapper.scss */
 article {
-  max-width: 1200px;
   width: 90%;
   margin: 0 auto;
 }
@@ -187,4 +187,64 @@ h2 {
 /* line 53, app/layout/_wrapper.scss */
 h3 {
   font-size: 15px;
+}
+
+/* line 1, app/layout/_feed.scss */
+.feed {
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 6, app/layout/_feed.scss */
+.feed ul {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+}
+/* line 14, app/layout/_feed.scss */
+.feed li {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+  display: block;
+  margin: 0 0 5px;
+  color: #333333;
+  background: white;
+  -webkit-transition: all 0.25s ease-in-out;
+  -moz-transition: all 0.25s ease-in-out;
+  -o-transition: all 0.25s ease-in-out;
+  transition: all 0.25s ease-in-out;
+  -webkit-transform-origin: 8px 8px;
+  -moz-transform-origin: 8px 8px;
+  -o-transform-origin: 8px 8px;
+  transform-origin: 8px 8px;
+}
+/* line 24, app/layout/_feed.scss */
+.feed li:hover {
+  color: #00e8b7;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.22);
+  -webkit-transform: rotateX(10deg);
+  -moz-transform: rotateX(10deg);
+  -o-transform: rotateX(10deg);
+  transform: rotateX(10deg);
+}
+/* line 48, app/layout/_feed.scss */
+[data-view="grid"].feed li {
+  width: 32%;
+  height: 200px;
+  margin: .5%;
+}
+/* line 58, app/layout/_feed.scss */
+.feed h3 {
+  display: block;
+  padding: 20px;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+/* line 1, app/layout/_modal.scss */
+.modal {
+  background: #000;
 }

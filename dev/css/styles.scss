@@ -1,3 +1,17 @@
 @import "app/base/reset";
 @import "app/base/core";
 @import "app/layout/wrapper";
+@import "app/layout/feed";
+@import "app/layout/modal";
+
+.feed {
+
+	@extend %feed;
+
+}
+
+.modal {
+
+	@extend %modal;
+
+}

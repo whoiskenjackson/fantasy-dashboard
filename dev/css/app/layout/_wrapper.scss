@@ -8,6 +8,7 @@ header {
 
 body {
 
+	font-family: $oswald;
 	background: $white-01;
 
 }
@@ -32,7 +33,6 @@ section {
 
 article {
 
-	max-width: 1200px;
 	width: 90%;
 	margin: 0 auto;
 
