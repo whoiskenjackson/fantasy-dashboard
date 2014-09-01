@@ -54,6 +54,26 @@
 
 	}
 
+	[data-button="close"] {
+
+		@extend %transition-all;
+		
+		display: block;
+		opacity: 0;
+		position: absolute;
+		top: 20px;
+		right: 20px;
+		font-size: 25px;
+		color: $white-01;
+
+		&:hover {
+
+			color: $green-01;
+
+		}
+
+	}
+
 	&.open {
 
 		height: 100%;
@@ -61,6 +81,13 @@
 		.navbar {
 
 			bottom: 35px;
+
+		}
+
+		[data-button="close"] {
+
+			display: block;
+			opacity: 1;
 
 		}
 
@@ -87,6 +114,12 @@
 	[data-icon="cog"] {
 
 		@extend %icon-cog;
+
+	}
+
+	[data-icon="close"] {
+
+		@extend %icon-close-alt;
 
 	}
 

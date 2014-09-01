@@ -49,4 +49,13 @@ renderBadges = () ->
 
 renderMenu = (menu) ->
 
-	$("header").toggleClass("open")
+	$("header").addClass("open")
+
+	$("header").attr("data-nav", menu)
+
+
+
+
+closeMenu = (menu) ->
+
+	$("header").removeClass("open")

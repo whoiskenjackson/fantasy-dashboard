@@ -5,3 +5,8 @@ $(document).on("click", "[data-menu]", function(e) {
   menu = $(this).data("menu");
   return renderMenu(menu);
 });
+
+$(document).on("click", "[data-button='close']", function(e) {
+  e.preventDefault();
+  return closeMenu();
+});

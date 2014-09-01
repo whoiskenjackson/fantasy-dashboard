@@ -34,7 +34,7 @@ a {
 }
 
 /* line 3, app/base/_transitions.scss */
-header, header .navbar > a, .feed li {
+header, header .navbar > a, header [data-button="close"], .feed li {
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
@@ -58,13 +58,18 @@ i {
 }
 
 /* line 20, app/base/gouda/_helpers.scss */
-header [data-icon="cog"]:before, header [data-icon="menu"]:before {
+header [data-icon="close"]:before, header [data-icon="cog"]:before, header [data-icon="menu"]:before {
   font-family: "Genericons";
 }
 
 /* line 26, app/base/gouda/_helpers.scss */
 header [data-icon="grid"]:before, header [data-icon="list"]:before, header [data-icon="cog"]:before {
   font-family: "Glyphicons Halflings";
+}
+
+/* line 38, app/base/gouda/_icons.scss */
+header [data-icon="close"]:before {
+  content: "\f406";
 }
 
 /* line 71, app/base/gouda/_icons.scss */
@@ -172,14 +177,33 @@ header .navbar > a[data-view="grid"], header .navbar > a[data-view="list"], head
   margin-right: 20px;
 }
 /* line 57, app/layout/_header.scss */
+header [data-button="close"] {
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 25px;
+  color: white;
+}
+/* line 69, app/layout/_header.scss */
+header [data-button="close"]:hover {
+  color: #00e8b7;
+}
+/* line 77, app/layout/_header.scss */
 header.open {
   height: 100%;
 }
-/* line 61, app/layout/_header.scss */
+/* line 81, app/layout/_header.scss */
 header.open .navbar {
   bottom: 35px;
 }
-/* line 93, app/layout/_header.scss */
+/* line 87, app/layout/_header.scss */
+header.open [data-button="close"] {
+  display: block;
+  opacity: 1;
+}
+/* line 126, app/layout/_header.scss */
 header nav {
   display: none;
 }
