@@ -225,18 +225,20 @@ h3 {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+  position: relative;
   display: block;
   margin: 0 0 5px;
   color: #333333;
   background: white;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
   cursor: pointer;
+  overflow: hidden;
   -webkit-transform-origin: 8px 8px;
   -moz-transform-origin: 8px 8px;
   -o-transform-origin: 8px 8px;
   transform-origin: 8px 8px;
 }
-/* line 26, app/layout/_feed.scss */
+/* line 28, app/layout/_feed.scss */
 .feed li:hover {
   color: #00e8b7;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.22);
@@ -245,18 +247,34 @@ h3 {
   -o-transform: rotateX(10deg);
   transform: rotateX(10deg);
 }
-/* line 45, app/layout/_feed.scss */
+/* line 47, app/layout/_feed.scss */
 [data-view="grid"].feed li {
   width: 32%;
   height: 200px;
   margin: .5%;
 }
-/* line 55, app/layout/_feed.scss */
+/* line 57, app/layout/_feed.scss */
 .feed h3 {
   display: block;
   padding: 20px;
   font-weight: normal;
   font-size: 20px;
+}
+/* line 66, app/layout/_feed.scss */
+.feed figure {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  overflow: visible;
+}
+/* line 76, app/layout/_feed.scss */
+.feed figure img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* line 1, app/layout/_modal.scss */

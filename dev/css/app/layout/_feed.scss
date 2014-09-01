@@ -16,12 +16,14 @@
 		@extend %transition-all;
 		@include border-radius(3px);
 
-		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+		position: relative;
 		display: block;
 		margin: 0 0 5px;
 		color: $gray-01;
 		background: $white-01;
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
 		cursor: pointer;
+		overflow: hidden;
 
 		&:hover {
 
@@ -58,6 +60,26 @@
 		padding: 20px;
 		font-weight: normal;
 		font-size: 20px;
+
+	}
+
+	figure {
+
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		overflow: visible;
+
+		img {
+
+			display: block;
+			width: 100%;
+			height: auto;
+
+		}
 
 	}
 
