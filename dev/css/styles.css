@@ -174,35 +174,37 @@ footer {
 body {
   font-family: "Oswald", sans-serif;
   background: white;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* line 22, app/layout/_wrapper.scss */
+/* line 25, app/layout/_wrapper.scss */
 a {
   text-decoration: none;
 }
 
-/* line 28, app/layout/_wrapper.scss */
+/* line 31, app/layout/_wrapper.scss */
 section {
   width: 100%;
 }
 
-/* line 34, app/layout/_wrapper.scss */
+/* line 37, app/layout/_wrapper.scss */
 article {
   width: 90%;
   margin: 0 auto;
 }
 
-/* line 41, app/layout/_wrapper.scss */
+/* line 44, app/layout/_wrapper.scss */
 h1 {
   font-size: 24px;
 }
 
-/* line 47, app/layout/_wrapper.scss */
+/* line 50, app/layout/_wrapper.scss */
 h2 {
   font-size: 20px;
 }
 
-/* line 53, app/layout/_wrapper.scss */
+/* line 56, app/layout/_wrapper.scss */
 h3 {
   font-size: 15px;
 }
@@ -228,7 +230,6 @@ h3 {
   position: relative;
   display: block;
   margin: 0 0 5px;
-  color: #333333;
   background: white;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
   cursor: pointer;
@@ -238,7 +239,11 @@ h3 {
   -o-transform-origin: 8px 8px;
   transform-origin: 8px 8px;
 }
-/* line 28, app/layout/_feed.scss */
+/* line 32, app/layout/_feed.scss */
+.feed li h3 {
+  color: #333333;
+}
+/* line 38, app/layout/_feed.scss */
 .feed li:hover {
   color: #00e8b7;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.22);
@@ -247,20 +252,24 @@ h3 {
   -o-transform: rotateX(10deg);
   transform: rotateX(10deg);
 }
-/* line 47, app/layout/_feed.scss */
+/* line 48, app/layout/_feed.scss */
+.feed li:hover h3 {
+  color: #00e8b7;
+}
+/* line 58, app/layout/_feed.scss */
 [data-view="grid"].feed li {
   width: 32%;
   height: 200px;
   margin: .5%;
 }
-/* line 57, app/layout/_feed.scss */
+/* line 68, app/layout/_feed.scss */
 .feed h3 {
   display: block;
   padding: 20px;
   font-weight: normal;
   font-size: 20px;
 }
-/* line 66, app/layout/_feed.scss */
+/* line 77, app/layout/_feed.scss */
 .feed figure {
   position: absolute;
   bottom: 10px;
@@ -269,18 +278,19 @@ h3 {
   text-align: center;
   overflow: visible;
 }
-/* line 75, app/layout/_feed.scss */
+/* line 86, app/layout/_feed.scss */
 .feed figure img {
   display: block;
   width: 100%;
   height: auto;
 }
-/* line 85, app/layout/_feed.scss */
+/* line 96, app/layout/_feed.scss */
 .feed p {
   position: absolute;
   bottom: 20px;
   left: 20px;
   font-size: 15px;
+  color: #333333;
 }
 
 /* line 1, app/layout/_modal.scss */

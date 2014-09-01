@@ -11,6 +11,9 @@ body {
 	font-family: $oswald;
 	background: $white-01;
 
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+
 }
 
 i {

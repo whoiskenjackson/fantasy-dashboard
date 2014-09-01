@@ -5,3 +5,5 @@ $(window).load () ->
 	renderMain()
 
 	loadFeeds()
+
+	renderGuide()

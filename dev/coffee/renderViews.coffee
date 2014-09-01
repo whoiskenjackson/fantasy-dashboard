@@ -7,6 +7,15 @@ renderMain = () ->
 
 
 
+renderGuide = () ->
+
+	template = config.templates.guide(teamList)
+
+	this.$el.find(".guide").append(template)
+
+
+
+
 renderFeed = () ->
 
 	template = config.templates.feed(feed)
@@ -32,5 +41,5 @@ renderBadges = () ->
 
 				res = res[0].toLowerCase()
 
-				item = this.$el.find("li[data-index="+i+"]")
+				item = this.$el.find(".feed li[data-index="+i+"]")
 				item.find("img").attr("src", "../images/"+res+"/logo-001.png")

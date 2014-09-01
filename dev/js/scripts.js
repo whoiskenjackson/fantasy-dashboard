@@ -3,5 +3,6 @@ this.$el = config.scope;
 
 $(window).load(function() {
   renderMain();
-  return loadFeeds();
+  loadFeeds();
+  return renderGuide();
 });

@@ -19,11 +19,21 @@
 		position: relative;
 		display: block;
 		margin: 0 0 5px;
-		color: $gray-01;
 		background: $white-01;
 		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
 		cursor: pointer;
 		overflow: hidden;
+
+		-webkit-transform-origin: 8px 8px;
+		-moz-transform-origin: 8px 8px;
+		-o-transform-origin: 8px 8px;
+		transform-origin: 8px 8px;
+
+		h3 {
+
+			color: $gray-01;
+
+		}
 
 		&:hover {
 
@@ -35,12 +45,13 @@
 			-o-transform: rotateX(10deg);
 			transform: rotateX(10deg);
 
-		}
+			h3 {
 
-		-webkit-transform-origin: 8px 8px;
-		-moz-transform-origin: 8px 8px;
-		-o-transform-origin: 8px 8px;
-		transform-origin: 8px 8px;
+				color: $green-01;
+
+			}
+
+		}
 
 	}
 
@@ -88,6 +99,7 @@
 		bottom: 20px;
 		left: 20px;
 		font-size: 15px;
+		color: $gray-01;
 
 	}
 
