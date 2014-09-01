@@ -34,7 +34,7 @@ a {
 }
 
 /* line 3, app/base/_transitions.scss */
-header > a, .feed li {
+header, header .navbar > a, .feed li {
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
@@ -113,7 +113,7 @@ header [data-icon="cog"]:before {
 }
 }
 /* line 3, app/widgets/_inline-block.scss */
-header > a, [data-view="grid"].feed li, .guide img {
+header .navbar > a, [data-view="grid"].feed li, .guide img {
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
@@ -136,31 +136,50 @@ header:after {
 /* line 1, app/layout/_header.scss */
 header {
   width: 100%;
-  position: relative;
+  height: 100%;
+  position: fixed;
   background: #222222;
   padding: 20px 0 10px;
+  top: 0;
+  height: 37px;
+  min-height: auto;
+  z-index: 10;
 }
-/* line 10, app/layout/_header.scss */
-header > a {
+/* line 16, app/layout/_header.scss */
+header .navbar {
+  position: absolute;
+  width: 100%;
+  bottom: 10px;
+}
+/* line 24, app/layout/_header.scss */
+header .navbar > a {
   position: relative;
   font-size: 25px;
   color: white;
 }
-/* line 19, app/layout/_header.scss */
-header > a:hover {
+/* line 33, app/layout/_header.scss */
+header .navbar > a:hover {
   color: #00e8b7;
 }
-/* line 25, app/layout/_header.scss */
-header > a[data-menu="main"] {
+/* line 39, app/layout/_header.scss */
+header .navbar > a[data-menu="main"] {
   float: left;
   left: 20px;
 }
-/* line 34, app/layout/_header.scss */
-header > a[data-view="grid"], header > a[data-view="list"], header > a[data-menu="settings"] {
+/* line 48, app/layout/_header.scss */
+header .navbar > a[data-view="grid"], header .navbar > a[data-view="list"], header .navbar > a[data-menu="settings"] {
   float: right;
   margin-right: 20px;
 }
-/* line 67, app/layout/_header.scss */
+/* line 57, app/layout/_header.scss */
+header.open {
+  height: 100%;
+}
+/* line 61, app/layout/_header.scss */
+header.open .navbar {
+  bottom: 35px;
+}
+/* line 93, app/layout/_header.scss */
 header nav {
   display: none;
 }
@@ -212,7 +231,7 @@ h3 {
 /* line 1, app/layout/_feed.scss */
 .feed {
   width: 100%;
-  padding: 150px 0;
+  padding: 200px 0 150px;
   margin: 0 auto;
 }
 /* line 7, app/layout/_feed.scss */
@@ -297,7 +316,7 @@ h3 {
 /* line 1, app/layout/_guide.scss */
 .guide {
   display: none;
-  padding: 150px 0;
+  padding: 200px 0 150px;
   width: 100%;
   margin: 0 auto;
 }

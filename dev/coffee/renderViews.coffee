@@ -43,3 +43,10 @@ renderBadges = () ->
 
 				item = this.$el.find(".feed li[data-index="+i+"]")
 				item.find("img").attr("src", "../images/"+res+"/logo-001.png")
+
+
+
+
+renderMenu = (menu) ->
+
+	$("header").toggleClass("open")

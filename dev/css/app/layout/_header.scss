@@ -1,13 +1,27 @@
 %header {
 
 	@extend %clear-fix;
+	@extend %transition-all;
 
 	width: 100%;
-	position: relative;
+	height: 100%;
+	position: fixed;
 	background: $black-02;
 	padding: 20px 0 10px;
+	top: 0;
+	height: 37px;
+	min-height: auto;
+	z-index: 10;
 
-	> a {
+	.navbar {
+
+		position: absolute;
+		width: 100%;
+		bottom: 10px;
+
+	}
+
+	.navbar > a {
 
 		@extend %transition-all;
 		@extend %inline-block;
@@ -35,6 +49,18 @@
 
 			float: right;
 			margin-right: 20px;
+
+		}
+
+	}
+
+	&.open {
+
+		height: 100%;
+
+		.navbar {
+
+			bottom: 35px;
 
 		}
 
