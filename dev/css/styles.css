@@ -212,15 +212,16 @@ h3 {
 /* line 1, app/layout/_feed.scss */
 .feed {
   width: 100%;
+  padding: 150px 0;
   margin: 0 auto;
 }
-/* line 6, app/layout/_feed.scss */
+/* line 7, app/layout/_feed.scss */
 .feed ul {
   list-style: none;
   width: 100%;
   margin: 0;
 }
-/* line 14, app/layout/_feed.scss */
+/* line 15, app/layout/_feed.scss */
 .feed li {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -239,11 +240,11 @@ h3 {
   -o-transform-origin: 8px 8px;
   transform-origin: 8px 8px;
 }
-/* line 32, app/layout/_feed.scss */
+/* line 33, app/layout/_feed.scss */
 .feed li h3 {
   color: #333333;
 }
-/* line 38, app/layout/_feed.scss */
+/* line 39, app/layout/_feed.scss */
 .feed li:hover {
   color: #00e8b7;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.22);
@@ -252,24 +253,24 @@ h3 {
   -o-transform: rotateX(10deg);
   transform: rotateX(10deg);
 }
-/* line 48, app/layout/_feed.scss */
+/* line 49, app/layout/_feed.scss */
 .feed li:hover h3 {
   color: #00e8b7;
 }
-/* line 58, app/layout/_feed.scss */
+/* line 59, app/layout/_feed.scss */
 [data-view="grid"].feed li {
   width: 32%;
   height: 200px;
   margin: .5%;
 }
-/* line 68, app/layout/_feed.scss */
+/* line 69, app/layout/_feed.scss */
 .feed h3 {
   display: block;
   padding: 20px;
   font-weight: normal;
   font-size: 20px;
 }
-/* line 77, app/layout/_feed.scss */
+/* line 78, app/layout/_feed.scss */
 .feed figure {
   position: absolute;
   bottom: 10px;
@@ -278,13 +279,13 @@ h3 {
   text-align: center;
   overflow: visible;
 }
-/* line 86, app/layout/_feed.scss */
+/* line 87, app/layout/_feed.scss */
 .feed figure img {
   display: block;
   width: 100%;
   height: auto;
 }
-/* line 96, app/layout/_feed.scss */
+/* line 97, app/layout/_feed.scss */
 .feed p {
   position: absolute;
   bottom: 20px;
@@ -295,21 +296,23 @@ h3 {
 
 /* line 1, app/layout/_guide.scss */
 .guide {
+  display: none;
+  padding: 150px 0;
   width: 100%;
   margin: 0 auto;
 }
-/* line 6, app/layout/_guide.scss */
+/* line 8, app/layout/_guide.scss */
 .guide ul {
   list-style: none;
   width: 100%;
   margin: 0;
 }
-/* line 14, app/layout/_guide.scss */
+/* line 16, app/layout/_guide.scss */
 .guide li {
   display: block;
   text-align: center;
 }
-/* line 21, app/layout/_guide.scss */
+/* line 23, app/layout/_guide.scss */
 .guide h3 {
   display: block;
   padding: 20px 0 100px;
