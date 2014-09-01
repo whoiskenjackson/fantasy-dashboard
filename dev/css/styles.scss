@@ -2,11 +2,18 @@
 @import "app/base/core";
 @import "app/layout/wrapper";
 @import "app/layout/feed";
+@import "app/layout/guide";
 @import "app/layout/modal";
 
 .feed {
 
 	@extend %feed;
+
+}
+
+.guide {
+
+	@extend %guide;
 
 }
 

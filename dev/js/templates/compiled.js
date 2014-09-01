@@ -69,5 +69,5 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<div class=\"feed\" data-view=\"grid\" data-interval=\"120000\"></div>\n\n<div class=\"guide\" data-view=\"grid\" data-interval=\"120000\"></div>\n\n<div class=\"modal\"></div>";
+  return "<div class=\"feed\" data-view=\"grid\" data-interval=\"120000\"></div>\n\n<div class=\"guide\"></div>\n\n<div class=\"modal\"></div>";
   });

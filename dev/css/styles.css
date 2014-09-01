@@ -113,7 +113,7 @@ header [data-icon="cog"]:before {
 }
 }
 /* line 3, app/widgets/_inline-block.scss */
-header > a, [data-view="grid"].feed li {
+header > a, [data-view="grid"].feed li, .guide img {
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
@@ -291,6 +291,30 @@ h3 {
   left: 20px;
   font-size: 15px;
   color: #333333;
+}
+
+/* line 1, app/layout/_guide.scss */
+.guide {
+  width: 100%;
+  margin: 0 auto;
+}
+/* line 6, app/layout/_guide.scss */
+.guide ul {
+  list-style: none;
+  width: 100%;
+  margin: 0;
+}
+/* line 14, app/layout/_guide.scss */
+.guide li {
+  display: block;
+  text-align: center;
+}
+/* line 21, app/layout/_guide.scss */
+.guide h3 {
+  display: block;
+  padding: 20px 0 100px;
+  font-weight: normal;
+  font-size: 40px;
 }
 
 /* line 1, app/layout/_modal.scss */
