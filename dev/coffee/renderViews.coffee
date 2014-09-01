@@ -32,7 +32,5 @@ renderBadges = () ->
 
 				res = res[0].toLowerCase()
 
-				console.log(res)
-
 				item = this.$el.find("li[data-index="+i+"]")
 				item.find("img").attr("src", "../images/"+res+"/logo-001.png")

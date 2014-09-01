@@ -266,11 +266,10 @@ h3 {
   bottom: 10px;
   right: 10px;
   width: 50px;
-  height: 50px;
   text-align: center;
   overflow: visible;
 }
-/* line 76, app/layout/_feed.scss */
+/* line 75, app/layout/_feed.scss */
 .feed figure img {
   display: block;
   width: 100%;

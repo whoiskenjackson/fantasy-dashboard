@@ -26,7 +26,6 @@ renderBadges = function() {
         res = str.match(teamList.teams[k].shortname);
         if (res) {
           res = res[0].toLowerCase();
-          console.log(res);
           item = this.$el.find("li[data-index=" + i + "]");
           _results1.push(item.find("img").attr("src", "../images/" + res + "/logo-001.png"));
         } else {
