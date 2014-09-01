@@ -11,6 +11,9 @@ config =
 			title: "ESPN"
 			url: "http://sports.espn.go.com/espn/rss/nfl/news"
 		item =
+			title: "KFL"
+			url: "http://www.kffl.com/printRSS.php/NFL"
+		item =
 			title: "Rotoworld"
 			url: "http://www.rotoworld.com/rss/feed.aspx?sport=nfl&ftype=news&count=12&format=rss"
 	]
