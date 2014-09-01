@@ -50,7 +50,9 @@ assembleFeeds = function() {
     }
   }
   console.log(feed);
-  return renderFeed();
+  renderFeed();
+  setTimer(interval);
+  return renderBadges();
 };
 
 resetFeeds = function() {

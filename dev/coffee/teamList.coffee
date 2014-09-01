@@ -2,137 +2,137 @@ teamList =
 	teams: [
 		team =
 			name: "Arizona Cardinals"
-			shortname: "cardinals"
+			shortname: "Cardinals"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Atlanta Falcons"
-			shortname: "falcons"
+			shortname: "Falcons"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Baltimore Ravens"
-			shortname: "ravens"
+			shortname: "Ravens"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Buffalo Bills"
-			shortname: "bills"
+			shortname: "Bills"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Carolina Panthers"
-			shortname: "panthers"
+			shortname: "Panthers"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Chicago Bears"
-			shortname: "bears"
+			shortname: "Bears"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Cincinnati Bengals"
-			shortname: "bengals"
+			shortname: "Bengals"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Cleveland Browns"
-			shortname: "browns"
+			shortname: "Browns"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Dallas Cowboys"
-			shortname: "cowboys"
+			shortname: "Cowboys"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Denver Broncos"
-			shortname: "broncos"
+			shortname: "Broncos"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Detroit Lions"
-			shortname: "lions"
+			shortname: "Lions"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Green Bay Packers"
-			shortname: "packers"
+			shortname: "Packers"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Houston Texans"
-			shortname: "texans"
+			shortname: "Texans"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Indianapolis Colts"
-			shortname: "colts"
+			shortname: "Colts"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Jacksonville Jaguars"
-			shortname: "jaguars"
+			shortname: "Jaguars"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Kansas City Chiefs"
-			shortname: "chiefs"
+			shortname: "Chiefs"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Miami Dolphins"
-			shortname: "dolphins"
+			shortname: "Dolphins"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Minnesota Vikings"
-			shortname: "vikings"
+			shortname: "Vikings"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "New England Patriots"
-			shortname: "patriots"
+			shortname: "Patriots"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "New Orleans Saints"
-			shortname: "saints"
+			shortname: "Saints"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "New York Giants"
-			shortname: "giants"
+			shortname: "Giants"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "New York Jets"
-			shortname: "jets"
+			shortname: "Jets"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Oakland Raiders"
-			shortname: "raiders"
+			shortname: "Raiders"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Philadelphia Eagles"
-			shortname: "eagles"
+			shortname: "Eagles"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Pittsburgh Steelers"
-			shortname: "steelers"
+			shortname: "Steelers"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Saint Louis Rams"
-			shortname: "rams"
+			shortname: "Rams"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "San Diego Chargers"
-			shortname: "chargers"
+			shortname: "Chargers"
 			logo: "logo-001.png"
 			background: null
 		team =
@@ -142,22 +142,22 @@ teamList =
 			background: null
 		team =
 			name: "Seattle Seahawks"
-			shortname: "seahawks"
+			shortname: "Seahawks"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Tampa Bay Buccaneers"
-			shortname: "buccaneers"
+			shortname: "Buccaneers"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Tennessee Titans"
-			shortname: "titans"
+			shortname: "Titans"
 			logo: "logo-001.png"
 			background: null
 		team =
 			name: "Washington Redskins"
-			shortname: "redskins"
+			shortname: "Redskins"
 			logo: "logo-001.png"
 			background: null
 	]

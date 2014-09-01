@@ -61,7 +61,9 @@ assembleFeeds = () ->
 
 	renderFeed()
 
-	#setTimer(interval)
+	setTimer(interval)
+
+	renderBadges()
 
 
 

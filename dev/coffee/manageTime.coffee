@@ -5,6 +5,9 @@ clearTimer = () ->
 
 	clearTimeout(timer)
 
+
+
+
 setTimer = (interval, timer) ->
 
 	interval = if interval then interval else this.$el.find(".feed").data("interval")
