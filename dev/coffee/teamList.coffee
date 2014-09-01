@@ -2,98 +2,162 @@ teamList =
 	teams: [
 		team =
 			name: "Arizona Cardinals"
-			image: null
+			shortname: "cardinals"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Atlanta Falcons"
-			image: null
+			shortname: "falcons"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Baltimore Ravens"
-			image: null
+			shortname: "ravens"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Buffalo Bills"
-			image: null
+			shortname: "bills"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Carolina Panthers"
-			image: null
+			shortname: "panthers"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Chicago Bears"
-			image: null
+			shortname: "bears"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Cincinnati Bengals"
-			image: null
+			shortname: "bengals"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Cleveland Browns"
-			image: null
+			shortname: "browns"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Dallas Cowboys"
-			image: null
+			shortname: "cowboys"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Denver Broncos"
-			image: null
+			shortname: "broncos"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Detroit Lions"
-			image: null
+			shortname: "lions"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Green Bay Packers"
-			image: null
+			shortname: "packers"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Houston Texans"
-			image: null
+			shortname: "texans"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Indianapolis Colts"
-			image: null
+			shortname: "colts"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Jacksonville Jaguars"
-			image: null
+			shortname: "jaguars"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Kansas City Chiefs"
-			image: null
+			shortname: "chiefs"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Miami Dolphins"
-			image: null
+			shortname: "dolphins"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Minnesota Vikings"
-			image: null
+			shortname: "vikings"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "New England Patriots"
-			image: null
+			shortname: "patriots"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "New Orleans Saints"
-			image: null
+			shortname: "saints"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "New York Giants"
-			image: null
+			shortname: "giants"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "New York Jets"
-			image: null
+			shortname: "jets"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Oakland Raiders"
-			image: null
+			shortname: "raiders"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Philadelphia Eagles"
-			image: null
+			shortname: "eagles"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Pittsburgh Steelers"
-			image: null
+			shortname: "steelers"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Saint Louis Rams"
-			image: null
+			shortname: "rams"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "San Diego Chargers"
-			image: null
+			shortname: "chargers"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "San Francisco 49ers"
-			image: null
+			shortname: "49ers"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Seattle Seahawks"
-			image: null
+			shortname: "seahawks"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Tampa Bay Buccaneers"
-			image: null
+			shortname: "buccaneers"
+			logo: "logo-001.png"
+			background: null
 		team =
 			name: "Tennessee Titans"
-			image: null
+			shortname: "titans"
+			logo: "logo-001.png"
+			background: null
 		team =
-			name: "Washington Redskin"
-			image: null
+			name: "Washington Redskins"
+			shortname: "redskins"
+			logo: "logo-001.png"
+			background: null
 	]
