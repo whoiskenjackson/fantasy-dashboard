@@ -24,7 +24,7 @@ loadFeeds = function() {
   _results = [];
   for (i = _i = 0, _ref = config.feeds.length; 0 <= _ref ? _i < _ref : _i > _ref; i = 0 <= _ref ? ++_i : --_i) {
     _results.push($.ajax({
-      url: 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=10&callback=?&q=' + encodeURIComponent(config.feeds[i].url),
+      url: 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=20&callback=?&q=' + encodeURIComponent(config.feeds[i].url),
       dataType: 'json',
       success: function(data, status, request) {
         feedLoaded();

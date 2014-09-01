@@ -275,6 +275,13 @@ h3 {
   width: 100%;
   height: auto;
 }
+/* line 85, app/layout/_feed.scss */
+.feed p {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  font-size: 15px;
+}
 
 /* line 1, app/layout/_modal.scss */
 .modal {
