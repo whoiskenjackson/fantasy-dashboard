@@ -118,7 +118,7 @@ header [data-icon="cog"]:before {
 }
 }
 /* line 3, app/widgets/_inline-block.scss */
-header .navbar > a, [data-view="grid"].feed li, .guide img {
+header .navbar > a, header nav li, [data-style="grid"].feed li, .guide img {
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
@@ -149,34 +149,35 @@ header {
   height: 37px;
   min-height: auto;
   z-index: 10;
+  overflow: hidden;
 }
-/* line 16, app/layout/_header.scss */
+/* line 17, app/layout/_header.scss */
 header .navbar {
   position: absolute;
   width: 100%;
   bottom: 10px;
 }
-/* line 24, app/layout/_header.scss */
+/* line 25, app/layout/_header.scss */
 header .navbar > a {
   position: relative;
   font-size: 25px;
   color: white;
 }
-/* line 33, app/layout/_header.scss */
+/* line 34, app/layout/_header.scss */
 header .navbar > a:hover {
   color: #00e8b7;
 }
-/* line 39, app/layout/_header.scss */
+/* line 40, app/layout/_header.scss */
 header .navbar > a[data-menu="main"] {
   float: left;
   left: 20px;
 }
-/* line 48, app/layout/_header.scss */
+/* line 49, app/layout/_header.scss */
 header .navbar > a[data-view="grid"], header .navbar > a[data-view="list"], header .navbar > a[data-menu="settings"] {
   float: right;
   margin-right: 20px;
 }
-/* line 57, app/layout/_header.scss */
+/* line 58, app/layout/_header.scss */
 header [data-button="close"] {
   display: block;
   opacity: 0;
@@ -186,26 +187,51 @@ header [data-button="close"] {
   font-size: 25px;
   color: white;
 }
-/* line 69, app/layout/_header.scss */
+/* line 70, app/layout/_header.scss */
 header [data-button="close"]:hover {
   color: #00e8b7;
 }
-/* line 77, app/layout/_header.scss */
+/* line 78, app/layout/_header.scss */
 header.open {
   height: 100%;
 }
-/* line 81, app/layout/_header.scss */
+/* line 82, app/layout/_header.scss */
 header.open .navbar {
   bottom: 35px;
 }
-/* line 87, app/layout/_header.scss */
+/* line 88, app/layout/_header.scss */
 header.open [data-button="close"] {
   display: block;
   opacity: 1;
 }
-/* line 126, app/layout/_header.scss */
+/* line 99, app/layout/_header.scss */
+header[data-view="main"] nav[data-nav="main"] {
+  display: block;
+}
+/* line 137, app/layout/_header.scss */
 header nav {
   display: none;
+  width: 90%;
+  margin: 0 auto;
+}
+/* line 143, app/layout/_header.scss */
+header nav ul {
+  list-style: none;
+  width: 100%;
+  text-align: center;
+}
+/* line 151, app/layout/_header.scss */
+header nav li {
+  padding: 0 20px;
+  font-size: 50px;
+}
+/* line 157, app/layout/_header.scss */
+header nav li a {
+  color: white;
+}
+/* line 162, app/layout/_header.scss */
+header nav li a:hover, header nav li a.selected {
+  color: #00e8b7;
 }
 
 /* line 1, app/layout/_footer.scss */
@@ -301,7 +327,7 @@ h3 {
   color: #00e8b7;
 }
 /* line 59, app/layout/_feed.scss */
-[data-view="grid"].feed li {
+[data-style="grid"].feed li {
   width: 32%;
   height: 200px;
   margin: .5%;
@@ -366,4 +392,15 @@ h3 {
 /* line 1, app/layout/_modal.scss */
 .modal {
   background: #000;
+}
+
+/* line 21, styles.scss */
+.feed,
+.guide {
+  display: none;
+}
+/* line 25, styles.scss */
+.feed.show,
+.guide.show {
+  display: block;
 }

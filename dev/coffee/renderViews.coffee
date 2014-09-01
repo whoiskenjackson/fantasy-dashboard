@@ -51,7 +51,7 @@ renderMenu = (menu) ->
 
 	$("header").addClass("open")
 
-	$("header").attr("data-nav", menu)
+	$("header").attr("data-view", menu)
 
 
 
@@ -59,3 +59,16 @@ renderMenu = (menu) ->
 closeMenu = (menu) ->
 
 	$("header").removeClass("open")
+
+	$("header").removeAttr("data-view")
+
+
+
+
+renderView = (view) ->
+
+	this.$el.find("[data-view]").removeClass("show")
+
+	this.$el.find("[data-view='"+view+"']").addClass("show")
+
+	$("header").removeAttr("data-view")

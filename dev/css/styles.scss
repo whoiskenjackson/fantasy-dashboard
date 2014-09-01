@@ -17,6 +17,19 @@
 
 }
 
+.feed,
+.guide {
+
+	display: none;
+
+	&.show {
+
+		display: block;
+
+	}
+
+}
+
 .modal {
 
 	@extend %modal;

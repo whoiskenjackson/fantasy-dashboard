@@ -12,6 +12,7 @@
 	height: 37px;
 	min-height: auto;
 	z-index: 10;
+	overflow: hidden;
 
 	.navbar {
 
@@ -93,6 +94,16 @@
 
 	}
 
+	&[data-view="main"] {
+
+		nav[data-nav="main"] {
+
+			display: block;
+
+		}
+
+	}
+
 	[data-icon="menu"] {
 
 		@extend %icon-menu;
@@ -126,6 +137,37 @@
 	nav {
 
 		display: none;
+		width: 90%;
+		margin: 0 auto;
+
+		ul {
+
+			list-style: none;
+			width: 100%;
+			text-align: center;
+
+		}
+
+		li {
+
+			@extend %inline-block;
+			padding: 0 20px;
+			font-size: 50px;
+
+			a {
+
+				color: $white-01;
+
+				&:hover,
+				&.selected {
+
+					color: $green-01;
+
+				}
+
+			}
+
+		}
 
 	}
 

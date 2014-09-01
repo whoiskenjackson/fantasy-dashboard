@@ -10,3 +10,13 @@ $(document).on("click", "[data-button='close']", function(e) {
   e.preventDefault();
   return closeMenu();
 });
+
+$(document).on("click", "nav a[data-view]", function(e) {
+  var view;
+  e.preventDefault();
+  view = $(this).data("view");
+  $("nav a[data-view]").removeClass("selected");
+  $(this).addClass("selected");
+  renderView(view);
+  return closeMenu();
+});
