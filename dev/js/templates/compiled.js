@@ -19,7 +19,7 @@ function program1(depth0,data) {
   if (helper = helpers.title) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.title); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "</h3>\n			<figure>\n				<img src=\"../images/chiefs/logo-001.png\">\n			</figure>\n		</div>\n	</li>";
+    + "</h3>\n			<figure>\n				<img src=\"../images/browns/logo-001.png\">\n			</figure>\n		</div>\n	</li>";
   return buffer;
   }
 
@@ -36,5 +36,5 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<div class=\"feed\" data-view=\"grid\"></div>\n\n<div class=\"modal\"></div>";
+  return "<div class=\"feed\" data-view=\"grid\" data-interval=\"120000\"></div>\n\n<div class=\"modal\"></div>";
   });
