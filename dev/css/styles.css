@@ -230,12 +230,13 @@ h3 {
   margin: 0 0 5px;
   color: #333333;
   background: white;
+  cursor: pointer;
   -webkit-transform-origin: 8px 8px;
   -moz-transform-origin: 8px 8px;
   -o-transform-origin: 8px 8px;
   transform-origin: 8px 8px;
 }
-/* line 25, app/layout/_feed.scss */
+/* line 26, app/layout/_feed.scss */
 .feed li:hover {
   color: #00e8b7;
   box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.22);
@@ -244,13 +245,13 @@ h3 {
   -o-transform: rotateX(10deg);
   transform: rotateX(10deg);
 }
-/* line 44, app/layout/_feed.scss */
+/* line 45, app/layout/_feed.scss */
 [data-view="grid"].feed li {
   width: 32%;
   height: 200px;
   margin: .5%;
 }
-/* line 54, app/layout/_feed.scss */
+/* line 55, app/layout/_feed.scss */
 .feed h3 {
   display: block;
   padding: 20px;
