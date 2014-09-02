@@ -37,6 +37,62 @@
 
 	}
 
+	.article {
+
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+		color: $white-01;
+
+	}
+
+	figure {
+
+		width: 150px;
+		height: auto;
+		margin: 0 auto;
+		padding: 20px 0 50px;
+
+	}
+
+	img {
+
+		width: 100%;
+		height: auto;
+
+	}
+
+	h3 {
+
+		font-size: 40px;
+		font-weight: normal;
+
+	}
+
+	p {
+
+		display: block;
+		font-size: 25px;
+		margin: 50px 0;
+
+	}
+
+	a {
+
+		@extend %transition-all;
+		@extend %inline-block;
+
+		font-size: 25px;
+		color: $white-01;
+
+		&:hover {
+
+			color: $green-01;
+
+		}
+
+	}
+
 	&.open {
 
 		top: 67px;

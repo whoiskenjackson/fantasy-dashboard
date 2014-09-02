@@ -64,11 +64,15 @@ renderView = function(view) {
   return $("header").removeAttr("data-view");
 };
 
-renderModal = function(index, badges) {
-  var template;
-  this.$el.find(".modal").addClass("open");
-  template = config.templates.article;
-  return this.$el.find(".modal").append(template);
+renderModal = function(index, badge) {
+  var $modal, article, template;
+  $modal = this.$el.find(".modal");
+  $modal.addClass("open");
+  article = feed.feeds[index];
+  template = config.templates.article(article);
+  $modal.find(".content").empty();
+  $modal.find(".content").append(template);
+  return $modal.find("img").attr("src", badge);
 };
 
 closeModal = function() {

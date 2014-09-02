@@ -83,13 +83,21 @@ renderView = (view) ->
 
 
 
-renderModal = (index, badges) ->
+renderModal = (index, badge) ->
 
-	this.$el.find(".modal").addClass("open")
+	$modal = this.$el.find(".modal")
 
-	template = config.templates.article
+	$modal.addClass("open")
 
-	this.$el.find(".modal").append(template)
+	article = feed.feeds[index]
+
+	template = config.templates.article(article)
+
+	$modal.find(".content").empty()
+
+	$modal.find(".content").append(template)
+
+	$modal.find("img").attr("src", badge)
 
 
 

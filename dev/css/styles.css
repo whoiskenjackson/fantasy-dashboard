@@ -34,7 +34,7 @@ a {
 }
 
 /* line 3, app/base/_transitions.scss */
-header, header .navbar > a, header [data-button="close"], .feed li, .modal, .modal [data-button="close"] {
+header, header .navbar > a, header [data-button="close"], .feed li, .modal, .modal [data-button="close"], .modal a {
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
@@ -118,7 +118,7 @@ header [data-icon="cog"]:before {
 }
 }
 /* line 3, app/widgets/_inline-block.scss */
-header .navbar > a, header nav li, [data-style="grid"].feed li, .guide img {
+header .navbar > a, header nav li, [data-style="grid"].feed li, .guide img, .modal a {
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
@@ -507,11 +507,50 @@ h3 {
   color: #00e8b7;
 }
 /* line 40, app/layout/_modal.scss */
+.modal .article {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+}
+/* line 49, app/layout/_modal.scss */
+.modal figure {
+  width: 150px;
+  height: auto;
+  margin: 0 auto;
+  padding: 20px 0 50px;
+}
+/* line 58, app/layout/_modal.scss */
+.modal img {
+  width: 100%;
+  height: auto;
+}
+/* line 65, app/layout/_modal.scss */
+.modal h3 {
+  font-size: 40px;
+  font-weight: normal;
+}
+/* line 72, app/layout/_modal.scss */
+.modal p {
+  display: block;
+  font-size: 25px;
+  margin: 50px 0;
+}
+/* line 80, app/layout/_modal.scss */
+.modal a {
+  font-size: 25px;
+  color: white;
+}
+/* line 88, app/layout/_modal.scss */
+.modal a:hover {
+  color: #00e8b7;
+}
+/* line 96, app/layout/_modal.scss */
 .open.modal {
   top: 67px;
   height: 100%;
 }
-/* line 45, app/layout/_modal.scss */
+/* line 101, app/layout/_modal.scss */
 .open.modal [data-button="close"] {
   display: block;
   opacity: 1;
