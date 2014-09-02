@@ -1,0 +1,66 @@
+// ---------- Base styling for Template Layout
+
+header {
+
+	@extend %header;
+
+}
+
+body {
+
+	font-family: $oswald;
+	background: $white-01;
+
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+i {
+
+	@extend %icon;
+
+}
+
+a {
+
+	text-decoration: none;
+
+}
+
+section {
+
+	width: 100%;
+
+}
+
+article {
+
+	width: 90%;
+	margin: 0 auto;
+
+}
+
+h1 {
+
+	font-size: 24px;
+
+}
+
+h2 {
+
+	font-size: 20px;
+
+}
+
+h3 {
+
+	font-size: 15px;
+
+}
+
+footer {
+
+	@extend %footer;
+
+}

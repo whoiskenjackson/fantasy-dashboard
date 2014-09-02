@@ -1,0 +1,188 @@
+%feed {
+
+	width: 100%;
+	padding: 200px 0 100px;
+	margin: 0 auto;
+
+	ul {
+
+		list-style: none;
+		width: 100%;
+		margin: 0;
+
+	}
+
+	li {
+
+		@extend %transition-all;
+		@include border-radius(3px);
+
+		position: relative;
+		display: block;
+		margin: 0 0 5px;
+		background: $white-01;
+		box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+		cursor: pointer;
+		overflow: hidden;
+
+		-webkit-transform-origin: 8px 8px;
+		-moz-transform-origin: 8px 8px;
+		-o-transform-origin: 8px 8px;
+		transform-origin: 8px 8px;
+
+		h3 {
+
+			color: $gray-01;
+
+		}
+
+		&:hover {
+
+			color: $green-01;
+			box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.22);
+
+			-webkit-transform: rotateX(10deg);
+			-moz-transform: rotateX(10deg);
+			-o-transform: rotateX(10deg);
+			transform: rotateX(10deg);
+
+			h3 {
+
+				color: $green-01;
+
+			}
+
+		}
+
+	}
+
+	h3 {
+
+		display: block;
+		padding: 20px;
+		font-weight: normal;
+		font-size: 20px;
+
+	}
+
+	figure {
+
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+		width: 50px;
+		text-align: center;
+		overflow: visible;
+
+		img {
+
+			display: block;
+			width: 100%;
+			height: auto;
+
+		}
+
+	}
+
+	p {
+
+		position: absolute;
+		bottom: 20px;
+		left: 20px;
+		font-size: 15px;
+		color: $gray-01;
+
+	}
+
+	&[data-style="grid"] {
+
+		li {
+
+			@extend %inline-block;
+
+			width: 32%;
+			height: 200px;
+			margin: .5%;
+
+			@include breakpoint(small) {
+
+				display: block;
+				width: auto;
+				height: auto;
+				margin: 0 0 5px;
+
+			}
+
+		}
+
+		h3 {
+
+			@include breakpoint(small) {
+
+				padding-right: 100px;
+
+			}
+
+		}
+
+		p {
+
+			@include breakpoint(small) {
+			
+				position: relative;
+				bottom: auto;
+				left: auto;
+				display: block;
+				padding: 0 20px 20px;
+			
+			}
+
+		}
+
+		figure {
+
+			@include breakpoint(small) {
+
+				top: 50%;
+				bottom: auto;
+				-ms-transform: translateY(-50%); /* IE 9 */
+				-webkit-transform: translateY(-50%); /* Chrome, Safari, Opera */
+				transform: translateY(-50%);
+
+			}
+
+		}
+
+	}
+
+	&[data-style="list"] {
+
+		h3 {
+
+			padding-right: 100px;
+
+		}
+
+		p {
+
+			position: relative;
+			bottom: auto;
+			left: auto;
+			display: block;
+			padding: 0 20px 20px;
+
+		}
+
+		figure {
+
+			top: 50%;
+			bottom: auto;
+			-ms-transform: translateY(-50%); /* IE 9 */
+			-webkit-transform: translateY(-50%); /* Chrome, Safari, Opera */
+			transform: translateY(-50%);
+
+		}
+
+	}
+
+}

@@ -1,0 +1,37 @@
+@import "app/base/reset";
+@import "app/base/core";
+@import "app/layout/wrapper";
+@import "app/layout/feed";
+@import "app/layout/guide";
+@import "app/layout/modal";
+
+.feed {
+
+	@extend %feed;
+
+}
+
+.guide {
+
+	@extend %guide;
+
+}
+
+.feed,
+.guide {
+
+	display: none;
+
+	&.show {
+
+		display: block;
+
+	}
+
+}
+
+.modal {
+
+	@extend %modal;
+
+}

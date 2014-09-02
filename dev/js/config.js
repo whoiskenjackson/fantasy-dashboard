@@ -2,6 +2,7 @@
 var config, item;
 
 config = {
+  scope: $("article"),
   feeds: [
     item = {
       title: "CBS",
@@ -10,11 +11,22 @@ config = {
       title: "NFL",
       url: "http://www.nfl.com/rss/rsslanding?searchString=home"
     }, item = {
+      title: "ESPN",
+      url: "http://sports.espn.go.com/espn/rss/nfl/news"
+    }, item = {
+      title: "KFL - Breaking News",
+      url: "http://www.kffl.com/printRSS.php/NFL"
+    }, item = {
+      title: "KFL - General News",
+      url: "http://www.kffl.com/printRSS.php/NFL-NFL"
+    }, item = {
       title: "Rotoworld",
       url: "http://www.rotoworld.com/rss/feed.aspx?sport=nfl&ftype=news&count=12&format=rss"
     }
   ],
   templates: {
-    main: Handlebars.templates["main"]
+    main: Handlebars.templates["main"],
+    feed: Handlebars.templates["feed"],
+    guide: Handlebars.templates["guide"]
   }
 };
