@@ -27,6 +27,7 @@ config = {
   templates: {
     main: Handlebars.templates["main"],
     feed: Handlebars.templates["feed"],
+    article: Handlebars.templates["article"],
     guide: Handlebars.templates["guide"]
   }
 };

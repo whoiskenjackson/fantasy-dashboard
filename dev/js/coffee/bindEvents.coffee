@@ -20,7 +20,7 @@ $(document).on "click", ".navbar [data-view]", (e) ->
 
 
 
-$(document).on "click", "[data-button='close']", (e) ->
+$(document).on "click", "header [data-button='close']", (e) ->
 
 	e.preventDefault()
 
@@ -42,3 +42,23 @@ $(document).on "click", "nav a[data-view]", (e) ->
 	renderView(view)
 
 	closeMenu()
+
+
+
+
+$(document).on "click", ".feed li", (e) ->
+
+	e.preventDefault()
+
+	index = $(this).data("index")
+
+	renderModal(index)
+
+
+
+
+$(document).on "click", ".modal [data-button='close']", (e) ->
+
+	e.preventDefault()
+
+	closeModal()

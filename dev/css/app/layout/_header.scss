@@ -139,12 +139,21 @@
 		display: none;
 		width: 90%;
 		margin: 0 auto;
+		text-align: center;
+
+		h3 {
+
+			font-size: 50px;
+			font-weight: normal;
+			color: $white-01;
+			margin: 0 0 50px;
+
+		}
 
 		ul {
 
 			list-style: none;
 			width: 100%;
-			text-align: center;
 
 		}
 
@@ -152,7 +161,7 @@
 
 			@extend %inline-block;
 			padding: 0 20px;
-			font-size: 50px;
+			font-size: 30px;
 
 			a {
 

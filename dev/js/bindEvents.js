@@ -13,7 +13,7 @@ $(document).on("click", ".navbar [data-view]", function(e) {
   return changeFeedStyle(view);
 });
 
-$(document).on("click", "[data-button='close']", function(e) {
+$(document).on("click", "header [data-button='close']", function(e) {
   e.preventDefault();
   return closeMenu();
 });
@@ -26,4 +26,16 @@ $(document).on("click", "nav a[data-view]", function(e) {
   $(this).addClass("selected");
   renderView(view);
   return closeMenu();
+});
+
+$(document).on("click", ".feed li", function(e) {
+  var index;
+  e.preventDefault();
+  index = $(this).data("index");
+  return renderModal(index);
+});
+
+$(document).on("click", ".modal [data-button='close']", function(e) {
+  e.preventDefault();
+  return closeModal();
 });

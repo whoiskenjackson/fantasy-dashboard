@@ -34,7 +34,7 @@ a {
 }
 
 /* line 3, app/base/_transitions.scss */
-header, header .navbar > a, header [data-button="close"], .feed li {
+header, header .navbar > a, header [data-button="close"], .feed li, .modal, .modal [data-button="close"] {
   -webkit-transition: all 0.25s ease-in-out;
   -moz-transition: all 0.25s ease-in-out;
   -o-transition: all 0.25s ease-in-out;
@@ -58,7 +58,7 @@ i {
 }
 
 /* line 20, app/base/gouda/_helpers.scss */
-header [data-icon="close"]:before, header [data-icon="cog"]:before, header [data-icon="menu"]:before {
+header [data-icon="close"]:before, .modal [data-icon="close"]:before, header [data-icon="cog"]:before, header [data-icon="menu"]:before {
   font-family: "Genericons";
 }
 
@@ -68,7 +68,7 @@ header [data-icon="grid"]:before, header [data-icon="list"]:before, header [data
 }
 
 /* line 38, app/base/gouda/_icons.scss */
-header [data-icon="close"]:before {
+header [data-icon="close"]:before, .modal [data-icon="close"]:before {
   content: "\f406";
 }
 
@@ -213,23 +213,30 @@ header nav {
   display: none;
   width: 90%;
   margin: 0 auto;
+  text-align: center;
 }
-/* line 143, app/layout/_header.scss */
+/* line 144, app/layout/_header.scss */
+header nav h3 {
+  font-size: 50px;
+  font-weight: normal;
+  color: white;
+  margin: 0 0 50px;
+}
+/* line 153, app/layout/_header.scss */
 header nav ul {
   list-style: none;
   width: 100%;
-  text-align: center;
 }
-/* line 151, app/layout/_header.scss */
+/* line 160, app/layout/_header.scss */
 header nav li {
   padding: 0 20px;
-  font-size: 50px;
+  font-size: 30px;
 }
-/* line 157, app/layout/_header.scss */
+/* line 166, app/layout/_header.scss */
 header nav li a {
   color: white;
 }
-/* line 162, app/layout/_header.scss */
+/* line 171, app/layout/_header.scss */
 header nav li a:hover, header nav li a.selected {
   color: #00e8b7;
 }
@@ -299,7 +306,7 @@ h3 {
   border-radius: 3px;
   position: relative;
   display: block;
-  margin: 0 0 5px;
+  margin: 0 0 10px;
   background: white;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
   cursor: pointer;
@@ -368,7 +375,7 @@ h3 {
     display: block;
     width: auto;
     height: auto;
-    margin: 0 0 5px;
+    margin: 0 0 10px;
   }
 }
 @media (max-width: 600px) {
@@ -429,18 +436,19 @@ h3 {
   width: 100%;
   margin: 0 auto;
 }
-/* line 14, app/layout/_guide.scss */
+/* line 8, app/layout/_guide.scss */
 .guide ul {
   list-style: none;
   width: 100%;
   margin: 0;
 }
-/* line 22, app/layout/_guide.scss */
+/* line 16, app/layout/_guide.scss */
 .guide li {
   display: block;
   text-align: center;
+  cursor: pointer;
 }
-/* line 29, app/layout/_guide.scss */
+/* line 24, app/layout/_guide.scss */
 .guide h3 {
   display: block;
   padding: 20px 0 100px;
@@ -448,19 +456,19 @@ h3 {
   font-size: 40px;
 }
 @media (max-width: 600px) {
-  /* line 29, app/layout/_guide.scss */
+  /* line 24, app/layout/_guide.scss */
   .guide h3 {
     font-size: 30px;
     padding-bottom: 70px;
   }
 }
-/* line 45, app/layout/_guide.scss */
+/* line 40, app/layout/_guide.scss */
 .guide img {
   width: auto;
   height: auto;
 }
 @media (max-width: 600px) {
-  /* line 45, app/layout/_guide.scss */
+  /* line 40, app/layout/_guide.scss */
   .guide img {
     width: 70%;
   }
@@ -468,7 +476,45 @@ h3 {
 
 /* line 1, app/layout/_modal.scss */
 .modal {
-  background: #000;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #222222;
+  bottom: 0;
+  left: 0;
+  top: 100%;
+  min-height: auto;
+  z-index: 9;
+  overflow: hidden;
+}
+/* line 16, app/layout/_modal.scss */
+.modal [data-button="close"] {
+  display: none;
+  opacity: 0;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  font-size: 25px;
+  color: white;
+  -ms-transform: translateX(-50%);
+  /* IE 9 */
+  -webkit-transform: translateX(-50%);
+  /* Chrome, Safari, Opera */
+  transform: translateX(-50%);
+}
+/* line 32, app/layout/_modal.scss */
+.modal [data-button="close"]:hover {
+  color: #00e8b7;
+}
+/* line 40, app/layout/_modal.scss */
+.open.modal {
+  top: 67px;
+  height: 100%;
+}
+/* line 45, app/layout/_modal.scss */
+.open.modal [data-button="close"] {
+  display: block;
+  opacity: 1;
 }
 
 /* line 21, styles.scss */

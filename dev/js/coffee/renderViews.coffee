@@ -79,3 +79,21 @@ renderView = (view) ->
 	this.$el.find("[data-view='"+view+"']").addClass("show")
 
 	$("header").removeAttr("data-view")
+
+
+
+
+renderModal = (index) ->
+
+	this.$el.find(".modal").addClass("open")
+
+	template = config.templates.article
+
+	this.$el.find(".modal").append(template)
+
+
+
+
+closeModal = () ->
+
+	$(".modal").removeClass("open")
