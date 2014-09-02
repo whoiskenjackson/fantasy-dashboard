@@ -6,6 +6,13 @@ $(document).on("click", "[data-menu]", function(e) {
   return renderMenu(menu);
 });
 
+$(document).on("click", ".navbar [data-view]", function(e) {
+  var view;
+  e.preventDefault();
+  view = $(this).data("view");
+  return changeFeedStyle(view);
+});
+
 $(document).on("click", "[data-button='close']", function(e) {
   e.preventDefault();
   return closeMenu();

@@ -179,7 +179,7 @@ header .navbar > a[data-view="grid"], header .navbar > a[data-view="list"], head
 }
 /* line 58, app/layout/_header.scss */
 header [data-button="close"] {
-  display: block;
+  display: none;
   opacity: 0;
   position: absolute;
   top: 20px;
@@ -281,7 +281,7 @@ h3 {
 /* line 1, app/layout/_feed.scss */
 .feed {
   width: 100%;
-  padding: 200px 0 150px;
+  padding: 200px 0 100px;
   margin: 0 auto;
 }
 /* line 7, app/layout/_feed.scss */
@@ -327,19 +327,13 @@ h3 {
   color: #00e8b7;
 }
 /* line 59, app/layout/_feed.scss */
-[data-style="grid"].feed li {
-  width: 32%;
-  height: 200px;
-  margin: .5%;
-}
-/* line 69, app/layout/_feed.scss */
 .feed h3 {
   display: block;
   padding: 20px;
   font-weight: normal;
   font-size: 20px;
 }
-/* line 78, app/layout/_feed.scss */
+/* line 68, app/layout/_feed.scss */
 .feed figure {
   position: absolute;
   bottom: 10px;
@@ -348,13 +342,13 @@ h3 {
   text-align: center;
   overflow: visible;
 }
-/* line 87, app/layout/_feed.scss */
+/* line 77, app/layout/_feed.scss */
 .feed figure img {
   display: block;
   width: 100%;
   height: auto;
 }
-/* line 97, app/layout/_feed.scss */
+/* line 87, app/layout/_feed.scss */
 .feed p {
   position: absolute;
   bottom: 20px;
@@ -362,11 +356,70 @@ h3 {
   font-size: 15px;
   color: #333333;
 }
+/* line 99, app/layout/_feed.scss */
+[data-style="grid"].feed li {
+  width: 32%;
+  height: 200px;
+  margin: .5%;
+}
+@media (max-width: 600px) {
+  /* line 99, app/layout/_feed.scss */
+  [data-style="grid"].feed li {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0 0 5px;
+  }
+}
+@media (max-width: 600px) {
+  /* line 118, app/layout/_feed.scss */
+  [data-style="grid"].feed p {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    display: block;
+    padding: 0 20px 20px;
+  }
+}
+@media (max-width: 600px) {
+  /* line 132, app/layout/_feed.scss */
+  [data-style="grid"].feed figure {
+    top: 50%;
+    bottom: auto;
+    -ms-transform: translateY(-50%);
+    /* IE 9 */
+    -webkit-transform: translateY(-50%);
+    /* Chrome, Safari, Opera */
+    transform: translateY(-50%);
+  }
+}
+/* line 150, app/layout/_feed.scss */
+[data-style="list"].feed h3 {
+  padding-right: 100px;
+}
+/* line 156, app/layout/_feed.scss */
+[data-style="list"].feed p {
+  position: relative;
+  bottom: auto;
+  left: auto;
+  display: block;
+  padding: 0 20px 20px;
+}
+/* line 166, app/layout/_feed.scss */
+[data-style="list"].feed figure {
+  top: 50%;
+  bottom: auto;
+  -ms-transform: translateY(-50%);
+  /* IE 9 */
+  -webkit-transform: translateY(-50%);
+  /* Chrome, Safari, Opera */
+  transform: translateY(-50%);
+}
 
 /* line 1, app/layout/_guide.scss */
 .guide {
   display: none;
-  padding: 200px 0 150px;
+  padding: 200px 0 100px;
   width: 100%;
   margin: 0 auto;
 }

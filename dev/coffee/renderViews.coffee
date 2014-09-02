@@ -65,6 +65,13 @@ closeMenu = (menu) ->
 
 
 
+changeFeedStyle = (view) ->
+
+	this.$el.find(".feed").attr("data-style", ""+view+"")
+
+
+
+
 renderView = (view) ->
 
 	this.$el.find("[data-view]").removeClass("show")

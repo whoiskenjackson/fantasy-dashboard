@@ -9,6 +9,17 @@ $(document).on "click", "[data-menu]", (e) ->
 
 
 
+$(document).on "click", ".navbar [data-view]", (e) ->
+
+	e.preventDefault()
+
+	view = $(this).data("view")
+
+	changeFeedStyle(view)
+
+
+
+
 $(document).on "click", "[data-button='close']", (e) ->
 
 	e.preventDefault()
