@@ -115,6 +115,16 @@
 
 		}
 
+		h3 {
+
+			@include breakpoint(small) {
+
+				padding-right: 100px;
+
+			}
+
+		}
+
 		p {
 
 			@include breakpoint(small) {

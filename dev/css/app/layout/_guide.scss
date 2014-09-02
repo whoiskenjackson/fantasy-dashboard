@@ -5,6 +5,12 @@
 	width: 100%;
 	margin: 0 auto;
 
+	@include breakpoint(small) {
+
+		
+
+	}
+
 	ul {
 
 		list-style: none;
@@ -27,11 +33,27 @@
 		font-weight: normal;
 		font-size: 40px;
 
+		@include breakpoint(small) {
+
+			font-size: 30px;
+			padding-bottom: 70px;
+
+		}
+
 	}
 
 	img {
 
 		@extend %inline-block;
+
+		width: auto;
+		height: auto;
+
+		@include breakpoint(small) {
+
+			width: 70%;
+
+		}
 
 	}
 
