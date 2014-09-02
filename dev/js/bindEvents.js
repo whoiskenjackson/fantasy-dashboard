@@ -29,10 +29,11 @@ $(document).on("click", "nav a[data-view]", function(e) {
 });
 
 $(document).on("click", ".feed li", function(e) {
-  var index;
+  var badge, index;
   e.preventDefault();
   index = $(this).data("index");
-  return renderModal(index);
+  badge = $(this).find("img").attr("src");
+  return renderModal(index, badge);
 });
 
 $(document).on("click", ".modal [data-button='close']", function(e) {

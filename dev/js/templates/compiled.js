@@ -7,7 +7,7 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<a href=\"#\" data-button=\"close\"><i data-icon=\"close\"></i></a>";
+  return "something";
   });
 
 this["Handlebars"]["templates"]["feed"] = Handlebars.template(function (Handlebars,depth0,helpers,partials,data) {
@@ -78,5 +78,5 @@ helpers = this.merge(helpers, Handlebars.helpers); data = data || {};
   
 
 
-  return "<div class=\"feed show\" data-view=\"feed\" data-style=\"grid\" data-interval=\"120000\"></div>\n\n<div class=\"guide\" data-view=\"guide\"></div>\n\n<div class=\"modal\"></div>";
+  return "<div class=\"feed show\" data-view=\"feed\" data-style=\"grid\" data-interval=\"120000\"></div>\n\n<div class=\"guide\" data-view=\"guide\"></div>\n\n<div class=\"modal\">\n	\n	<div class=\"article\">\n	\n		<figure>\n			<img src=\"images/nfl-logo.png\">\n		</figure>\n\n		<div class=\"content\"></div>\n\n	</div>\n\n	<a href=\"#\" data-button=\"close\"><i data-icon=\"close\"></i></a>\n\n</div>";
   });

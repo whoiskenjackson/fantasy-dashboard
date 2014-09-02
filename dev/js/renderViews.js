@@ -64,7 +64,7 @@ renderView = function(view) {
   return $("header").removeAttr("data-view");
 };
 
-renderModal = function(index) {
+renderModal = function(index, badges) {
   var template;
   this.$el.find(".modal").addClass("open");
   template = config.templates.article;

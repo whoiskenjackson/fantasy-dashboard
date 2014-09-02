@@ -52,7 +52,9 @@ $(document).on "click", ".feed li", (e) ->
 
 	index = $(this).data("index")
 
-	renderModal(index)
+	badge = $(this).find("img").attr("src")
+
+	renderModal(index, badge)
 
 
 

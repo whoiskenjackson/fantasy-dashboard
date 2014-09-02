@@ -83,7 +83,7 @@ renderView = (view) ->
 
 
 
-renderModal = (index) ->
+renderModal = (index, badges) ->
 
 	this.$el.find(".modal").addClass("open")
 
