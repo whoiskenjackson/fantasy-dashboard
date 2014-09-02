@@ -33,7 +33,7 @@ renderBadges = function() {
         if (res) {
           res = res[0].toLowerCase();
           item = this.$el.find(".feed li[data-index=" + i + "]");
-          _results1.push(item.find("img").attr("src", "../images/" + res + "/logo-001.png"));
+          _results1.push(item.find("img").attr("src", "images/" + res + "/logo-001.png"));
         } else {
           _results1.push(void 0);
         }

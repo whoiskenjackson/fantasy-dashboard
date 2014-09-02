@@ -19,7 +19,7 @@ function program1(depth0,data) {
   if (helper = helpers.title) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.title); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
-    + "</h3>\n			<figure>\n				<img src=\"../images/nfl-logo.png\">\n			</figure>\n			<p>";
+    + "</h3>\n			<figure>\n				<img src=\"images/nfl-logo.png\">\n			</figure>\n			<p>";
   if (helper = helpers.parent) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.parent); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
@@ -44,7 +44,7 @@ function program1(depth0,data) {
   var buffer = "", stack1, helper;
   buffer += "<li data-index=\""
     + escapeExpression(((stack1 = (data == null || data === false ? data : data.index)),typeof stack1 === functionType ? stack1.apply(depth0) : stack1))
-    + "\">\n		<div>\n			<figure>\n				<img src=\"../images/";
+    + "\">\n		<div>\n			<figure>\n				<img src=\"images/";
   if (helper = helpers.slug) { stack1 = helper.call(depth0, {hash:{},data:data}); }
   else { helper = (depth0 && depth0.slug); stack1 = typeof helper === functionType ? helper.call(depth0, {hash:{},data:data}) : helper; }
   buffer += escapeExpression(stack1)
