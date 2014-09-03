@@ -3,7 +3,7 @@ var config, item;
 
 config = {
   scope: $("article"),
-  feeds: [
+  headlines: [
     item = {
       title: "CBS",
       url: "http://www.cbssports.com/partners/feeds/rss/nfl_news"
@@ -14,10 +14,10 @@ config = {
       title: "ESPN",
       url: "http://sports.espn.go.com/espn/rss/nfl/news"
     }, item = {
-      title: "KFL - Breaking News",
+      title: "KFFL - Breaking News",
       url: "http://www.kffl.com/printRSS.php/NFL"
     }, item = {
-      title: "KFL - General News",
+      title: "KFFL - General News",
       url: "http://www.kffl.com/printRSS.php/NFL-NFL"
     }, item = {
       title: "Rotoworld",

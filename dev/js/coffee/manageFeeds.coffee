@@ -13,7 +13,7 @@ feedLoaded = () ->
 
 	k++
 
-	if k == config.feeds.length
+	if k == config.headlines.length
 
 		finished = true
 
@@ -23,10 +23,10 @@ loadFeeds = () ->
 
 	console.log("========== Load Feeds ==========")
 
-	for i in [0...config.feeds.length]
+	for i in [0...config.headlines.length]
 
 		$.ajax
-			url: 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=20&callback=?&q=' + encodeURIComponent(config.feeds[i].url)
+			url: 'http://ajax.googleapis.com/ajax/services/feed/load?v=1.0&num=20&callback=?&q=' + encodeURIComponent(config.headlines[i].url)
 			dataType: 'json'
 			success: (data, status, request) ->
 
