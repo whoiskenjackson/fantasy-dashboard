@@ -17,8 +17,8 @@ The news headlines pulls these feeds:
 1. CBS
 2. NFL
 3. ESPN
-4. KFL - Top 50
-5. KFL - Top 150
+4. KFFL - Top 50
+5. KFFL - Top 150
 
 ###Team News
 
