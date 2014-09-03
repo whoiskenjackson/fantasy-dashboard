@@ -39,6 +39,8 @@ $(document).on "click", "nav a[data-view]", (e) ->
 
 	$(this).addClass("selected")
 
+	window.scrollTo(0, 0);
+
 	renderView(view)
 
 	closeMenu()

@@ -24,6 +24,7 @@ $(document).on("click", "nav a[data-view]", function(e) {
   view = $(this).data("view");
   $("nav a[data-view]").removeClass("selected");
   $(this).addClass("selected");
+  window.scrollTo(0, 0);
   renderView(view);
   return closeMenu();
 });
