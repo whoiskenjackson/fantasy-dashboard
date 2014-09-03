@@ -19,7 +19,13 @@ The news headlines pulls these feeds:
 3. ESPN
 4. KFFL - Top 50
 5. KFFL - Top 150
+6. Rotoworld
 
 ###Team News
 
-Work In Progress. This will pull in feeds for the selected team.
+Work In Progress. This will pull in feeds for the selected team. Feeds used:
+
+1. NFL
+2. KFFL
+3. Yahoo
+4. Google
