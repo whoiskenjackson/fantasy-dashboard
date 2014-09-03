@@ -61,7 +61,8 @@ changeFeedStyle = function(view) {
 renderView = function(view) {
   this.$el.find("[data-view]").removeClass("show");
   this.$el.find("[data-view='" + view + "']").addClass("show");
-  return $("header").removeAttr("data-view");
+  $("header").removeAttr("data-view");
+  return $(".modal").removeClass("open");
 };
 
 renderModal = function(index, badge) {

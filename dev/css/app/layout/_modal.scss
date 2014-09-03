@@ -48,17 +48,20 @@
 
 	figure {
 
-		width: 150px;
-		height: auto;
+		display: block;
+		height: 150px;
 		margin: 0 auto;
 		padding: 20px 0 50px;
+		text-align: center;
 
 	}
 
 	img {
 
-		width: 100%;
-		height: auto;
+		@extend %inline-block;
+
+		width: auto;
+		height: 100%;
 
 	}
 
@@ -66,13 +69,14 @@
 
 		font-size: 40px;
 		font-weight: normal;
+		margin: 0;
 
 	}
 
 	p {
 
 		display: block;
-		font-size: 25px;
+		font-size: 20px;
 		margin: 25px 0;
 
 	}

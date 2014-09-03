@@ -80,6 +80,8 @@ renderView = (view) ->
 
 	$("header").removeAttr("data-view")
 
+	$(".modal").removeClass("open")
+
 
 
 

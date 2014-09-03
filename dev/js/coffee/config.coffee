@@ -19,6 +19,9 @@ config =
 		item =
 			title: "Rotoworld"
 			url: "http://www.rotoworld.com/rss/feed.aspx?sport=nfl&ftype=news&count=12&format=rss"
+		#item =
+			#title: "Google"
+			#url: "http://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=National+Football+League&output=rss"
 	]
 	templates:
 		main: Handlebars.templates["main"]

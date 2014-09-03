@@ -184,7 +184,7 @@ header [data-icon="cog"]:before {
 /*--- Zoom Out Right ---*/
 /*--- Zoom Out Up ---*/
 /* line 3, app/widgets/_inline-block.scss */
-header .navbar > a, header nav li, [data-style="grid"].feed li, .guide img, .modal a {
+header .navbar > a, header nav li, [data-style="grid"].feed li, .guide img, .modal img, .modal a {
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: middle;
@@ -587,42 +587,44 @@ h3 {
 }
 /* line 49, app/layout/_modal.scss */
 .modal figure {
-  width: 150px;
-  height: auto;
+  display: block;
+  height: 150px;
   margin: 0 auto;
   padding: 20px 0 50px;
+  text-align: center;
 }
-/* line 58, app/layout/_modal.scss */
+/* line 59, app/layout/_modal.scss */
 .modal img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
-/* line 65, app/layout/_modal.scss */
+/* line 68, app/layout/_modal.scss */
 .modal h3 {
   font-size: 40px;
   font-weight: normal;
+  margin: 0;
 }
-/* line 72, app/layout/_modal.scss */
+/* line 76, app/layout/_modal.scss */
 .modal p {
   display: block;
-  font-size: 25px;
+  font-size: 20px;
   margin: 25px 0;
 }
-/* line 80, app/layout/_modal.scss */
+/* line 84, app/layout/_modal.scss */
 .modal a {
   font-size: 25px;
   color: white;
 }
-/* line 88, app/layout/_modal.scss */
+/* line 92, app/layout/_modal.scss */
 .modal a:hover {
   color: #00e8b7;
 }
-/* line 96, app/layout/_modal.scss */
+/* line 100, app/layout/_modal.scss */
 .open.modal {
   top: 67px;
   height: 100%;
 }
-/* line 101, app/layout/_modal.scss */
+/* line 105, app/layout/_modal.scss */
 .open.modal [data-button="close"] {
   display: block;
   opacity: 1;

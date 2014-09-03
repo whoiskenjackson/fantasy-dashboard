@@ -16,9 +16,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -41,9 +41,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -66,9 +66,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -91,9 +91,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -116,9 +116,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -141,9 +141,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -166,9 +166,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -191,9 +191,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -216,9 +216,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -241,9 +241,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -266,9 +266,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -291,9 +291,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -316,9 +316,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -341,9 +341,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -366,9 +366,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -391,9 +391,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -416,9 +416,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -441,9 +441,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -466,9 +466,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -491,9 +491,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -516,9 +516,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -541,9 +541,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -566,9 +566,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -591,9 +591,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -616,9 +616,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -641,9 +641,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -666,9 +666,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -691,9 +691,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -716,9 +716,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -741,9 +741,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -766,9 +766,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
@@ -791,9 +791,9 @@ teamList =
 				item =
 					title: "Yahoo"
 					url: "https://sports.yahoo.com/nfl/teams/cin/rss.xml"
-				item =
-					title: "Google"
-					url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
+				#item =
+					#title: "Google"
+					#url: "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&q=Cincinnati+Bengals&output=rss"
 			]
 			highlights: [
 				item =
