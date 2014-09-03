@@ -435,7 +435,13 @@ h3 {
   height: 200px;
   margin: .5%;
 }
-@media (max-width: 600px) {
+@media (max-width: 1080px) {
+  /* line 99, app/layout/_feed.scss */
+  [data-style="grid"].feed li {
+    width: 49%;
+  }
+}
+@media (max-width: 700px) {
   /* line 99, app/layout/_feed.scss */
   [data-style="grid"].feed li {
     display: block;
@@ -444,14 +450,14 @@ h3 {
     margin: 0 0 10px;
   }
 }
-@media (max-width: 600px) {
-  /* line 118, app/layout/_feed.scss */
+@media (max-width: 700px) {
+  /* line 123, app/layout/_feed.scss */
   [data-style="grid"].feed h3 {
     padding-right: 100px;
   }
 }
-@media (max-width: 600px) {
-  /* line 128, app/layout/_feed.scss */
+@media (max-width: 700px) {
+  /* line 133, app/layout/_feed.scss */
   [data-style="grid"].feed p {
     position: relative;
     bottom: auto;
@@ -460,8 +466,8 @@ h3 {
     padding: 0 20px 20px;
   }
 }
-@media (max-width: 600px) {
-  /* line 142, app/layout/_feed.scss */
+@media (max-width: 700px) {
+  /* line 147, app/layout/_feed.scss */
   [data-style="grid"].feed figure {
     top: 50%;
     bottom: auto;
@@ -472,11 +478,11 @@ h3 {
     transform: translateY(-50%);
   }
 }
-/* line 160, app/layout/_feed.scss */
+/* line 165, app/layout/_feed.scss */
 [data-style="list"].feed h3 {
   padding-right: 100px;
 }
-/* line 166, app/layout/_feed.scss */
+/* line 171, app/layout/_feed.scss */
 [data-style="list"].feed p {
   position: relative;
   bottom: auto;
@@ -484,7 +490,7 @@ h3 {
   display: block;
   padding: 0 20px 20px;
 }
-/* line 176, app/layout/_feed.scss */
+/* line 181, app/layout/_feed.scss */
 [data-style="list"].feed figure {
   top: 50%;
   bottom: auto;
@@ -521,7 +527,7 @@ h3 {
   font-weight: normal;
   font-size: 40px;
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   /* line 24, app/layout/_guide.scss */
   .guide h3 {
     font-size: 30px;
@@ -533,7 +539,7 @@ h3 {
   width: auto;
   height: auto;
 }
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   /* line 40, app/layout/_guide.scss */
   .guide img {
     width: 70%;
@@ -600,7 +606,7 @@ h3 {
 .modal p {
   display: block;
   font-size: 25px;
-  margin: 50px 0;
+  margin: 25px 0;
 }
 /* line 80, app/layout/_modal.scss */
 .modal a {

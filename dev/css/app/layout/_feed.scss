@@ -104,6 +104,11 @@
 			height: 200px;
 			margin: .5%;
 
+			@include breakpoint(medium) {
+
+				width: 49%;
+			}
+
 			@include breakpoint(small) {
 
 				display: block;
